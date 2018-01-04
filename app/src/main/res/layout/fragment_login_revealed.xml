@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo"
+        android:scaleType="centerCrop" />
+
+
+    <com.ldoublem.loadingviewlib.view.LVBlock
+        android:id="@+id/loadingView_block"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout
+        android:id="@+id/till_phone"
+        style="@style/TextView.Cred"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loadingView_block"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/phoneNumber"
+        android:theme="@style/TextView.Cred">
+
+        <EditText
+            android:id="@+id/et_login_phone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="phone"
+           />
+    </com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout>
+
+    <com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout
+        android:id="@+id/till_pass"
+        style="@style/TextView.Cred"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/till_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/password"
+        android:theme="@style/TextView.Cred">
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_auth_credentials"
+            android:inputType="textPassword"
+            />
+
+
+    </com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout>
+
+
+    <FrameLayout
+        android:id="@+id/loginBtnFram"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/till_pass"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_red_semi_trannsparent"
+        >
+
+        <TextView
+            android:id="@+id/textViewLoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lognIn"
+            android:textColor="@drawable/text_in_login_signup_button_selector"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/progressInLoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_newMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginBtnFram"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/newUser"
+        android:textColor="@color/bishoy" />
+
+
+    <View
+        android:id="@+id/reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:visibility="invisible" />
+</RelativeLayout>
+

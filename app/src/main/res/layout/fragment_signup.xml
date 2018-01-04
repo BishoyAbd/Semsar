@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/parent_signup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="66dp"
+            android:layout_marginTop="66dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toTopOf="@+id/tils_phone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tils_name"
+            style="@style/TextView.Cred"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name"
+            android:theme="@style/TextView.Cred"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <EditText
+                android:id="@+id/et_signup_userName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_auth_credentials"
+                android:inputType="textPersonName" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tils_phone"
+            style="@style/TextView.Cred"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/phoneNumber"
+            android:theme="@style/TextView.Cred"
+            app:layout_constraintBottom_toTopOf="@+id/tils_pass"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1">
+
+            <EditText
+                android:id="@+id/et_signup_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_auth_credentials"
+                android:inputType="phone" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout
+            android:id="@+id/tils_pass"
+            style="@style/TextView.Cred"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="21dp"
+            android:hint="@string/password"
+
+            android:theme="@style/TextView.Cred"
+            app:layout_constraintBottom_toTopOf="@+id/tils_confirmPass"
+            app:layout_constraintLeft_toLeftOf="@+id/tils_phone"
+            app:layout_constraintRight_toRightOf="@+id/tils_phone"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1">
+
+            <EditText
+                android:id="@+id/et_signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_auth_credentials"
+                android:inputType="textPassword" />
+
+
+        </com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout>
+
+        <com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout
+            android:id="@+id/tils_confirmPass"
+            style="@style/TextView.Cred"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/confirmPassword"
+            android:theme="@style/TextView.Cred"
+            app:layout_constraintBottom_toTopOf="@+id/signUp_btn"
+            app:layout_constraintLeft_toLeftOf="@+id/tils_pass"
+            app:layout_constraintRight_toRightOf="@+id/tils_pass"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1">
+
+            <EditText
+                android:id="@+id/et_signup_confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_auth_credentials"
+                android:inputType="textPassword"
+
+
+                />
+
+        </com.projects.cactus.maskn.utils.CalligraphyDefaultTextInputLayout>
+
+        <Button
+            android:id="@+id/signUp_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="94dp"
+            android:background="@drawable/button_red_semi_trannsparent"
+            android:text="@string/signUp"
+            android:textColor="@drawable/text_in_login_signup_button_selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/tils_confirmPass"
+            app:layout_constraintRight_toRightOf="@+id/tils_confirmPass"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <TextView
+            android:id="@+id/tv_alreadyUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="عضو؟سجل دخولك"
+            android:textColor="@color/bishoy"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUp_btn"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.584">
+
+
+            <com.ldoublem.loadingviewlib.view.LVBlock
+                android:id="@+id/loadingView_block"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+
+                />
+
+        </RelativeLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

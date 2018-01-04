@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+
+    <RelativeLayout
+
+        android:id="@+id/containerApartment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_greyish"
+            android:orientation="vertical"
+            tools:context=".appartmentdetails.ApartmentActivity"
+            tools:showIn="@layout/activity_apartmet"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageViewAdsInApartment"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+               />
+
+
+
+            <include
+                layout="@layout/profile_section_in_apartment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/priceCardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cardViewHeghtInApartment"
+                android:layout_margin="@dimen/cardViewMarginInApartment">
+
+                <!--I made a relative layout and used alignParent and -->
+                <!--centerVertical to place them this way-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        style="@style/TextView.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/price"
+                        android:textSize="@dimen/text_view_size_large_in_apartment"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_price_ApartAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/unknown"
+                        android:textSize="@dimen/text_view_size__small_in_apartment" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cityCardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cardViewHeghtInApartment"
+                android:layout_margin="@dimen/cardViewMarginInApartment">
+
+                <!--I made a relative layout and used alignParent and -->
+                <!--centerVertical to place them this way-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        style="@style/TextView.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/city"
+                        android:textSize="@dimen/text_view_size_large_in_apartment"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_city_ApartAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/unknown"
+                        android:textSize="@dimen/text_view_size__small_in_apartment" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/addressCardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cardViewHeghtInApartment"
+                android:layout_margin="@dimen/cardViewMarginInApartment">
+
+                <!--I made a relative layout and used alignParent and -->
+                <!--centerVertical to place them this way-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        style="@style/TextView.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/address"
+                        android:textSize="@dimen/text_view_size_large_in_apartment"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_address_ApartAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/unknown"
+                        android:textSize="@dimen/text_view_size__small_in_apartment" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/roomsCardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cardViewHeghtInApartment"
+                android:layout_margin="@dimen/cardViewMarginInApartment">
+
+                <!--I made a relative layout and used alignParent and -->
+                <!--centerVertical to place them this way-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        style="@style/TextView.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/numOfRooms"
+                        android:textSize="@dimen/text_view_size_large_in_apartment"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_numRooms_ApartAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/unknown"
+                        android:textSize="@dimen/text_view_size__small_in_apartment" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/descCardView"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cardViewMarginInApartment">
+
+                <!--I made a relative layout and used alignParent and -->
+                <!--centerVertical to place them this way-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/dumbTvDesc"
+                        style="@style/TextView.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/description"
+                        android:textSize="@dimen/text_view_size_large_in_apartment"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_desc_ApartAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dumbTvDesc"
+                        android:gravity="end"
+                        android:text="صاحبها ماحطش وصف !! "
+                        android:textSize="@dimen/text_view_size__small_in_apartment" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/dateCardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cardViewHeghtInApartment"
+                android:layout_margin="@dimen/cardViewMarginInApartment">
+
+                <!--I made a relative layout and used alignParent and -->
+                <!--centerVertical to place them this way-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/dumbTvDate"
+                        style="@style/TextView.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/date"
+                        android:textSize="@dimen/text_view_size_large_in_apartment"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_date_apartAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="غير معروف"
+                        android:textSize="@dimen/text_view_size__small_in_apartment" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressIndicator_inApartAct"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

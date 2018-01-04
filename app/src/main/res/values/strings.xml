@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">ســمسار</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="PriceTo">الــــي</string>
+    <string name="city">المدينة</string>
+    <string name="priceFrom">السعر من</string>
+    <string name="search">البحث</string>
+    <string name="tryAgainLoading">اعد المحاولة</string>
+    <string name="errorLoadingData">خطأ ف الاتصال !</string>
+    <string name="phoneNumber">رقم الموبيل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">الرقم السري</string>
+    <string name="closebutton">اغلاق</string>
+    <string name="confirmPassword">تاكيد كلمة المرور</string>
+    <string name="signUp">تسجيل</string>
+    <string name="addApartment">اضافة شقة</string>
+    <string name="address">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="floor">الدور</string>
+    <string name="price">سعر الشقة</string>
+    <string name="error_general">خطا في الشبكة! حاول مرة اخري</string>
+    <string name="error">خطا</string>
+    <string name="success">تم التسجيل بنجاح</string>
+    <string name="emptyInput">يجب ملئ هذهالخانة</string>
+    <string name="numOfRooms">عدد الغرف</string>
+    <string name="create_new_account">create new account</string>
+    <string name="ok">تمام</string>
+    <string name="cancel">الغاء</string>
+    <string name="title_dialog_beds">عدد السراير</string>
+    <string name="title_dialog_rooms">عدد الاوض</string>
+    <string name="numOfBeds">عدد السراير</string>
+    <string name="numOfBathRoom">عدد الحمامات</string>
+    <string name="please_file_in_form">يجب ملئ هذه الخانة</string>
+    <string name="enter_valid_phone">رقم الموبيل غير صحيح</string>
+    <string name="please_confirmPassword">يرجي التأكد من الرقم السري</string>
+    <string name="password_min_max_lenght_error">كلمة السر من  8 االي 20 حرف</string>
+    <string name="user_name">الاسم</string>
+    <string name="logOut">تسجيل الخروج</string>
+    <string name="date">التاريخ</string>
+    <string name="unknown"></string>
+    <string name="banner_search_footer">ca-app-pub-8069936309524324/1677647714</string>
+    <string name="gender">نوع الشقة</string>
+    <string name="contactUs">اتصل بنا</string>
+    <string name="aboutApp">عن التطبيق</string>
+    <string name="advertizeWithUs">اعلن معنا</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">colse</string>
+    <string name="error_press_to_refresh">خطا! اعادة تحميل؟</string>
+    <string name="load">حمل</string>
+    <string name="newUser">مستخدم جديد؟</string>
+    <string name="lognIn">تسجيل الدخول</string>
+    <string name="aboutUs">كاكتوس هي شركة ناشئة ف هندسة منوف المنوفية احنا طلبة ف تالته ورابعه هندسة حاسبات بنعمل مشاريع خاصة بال اندرويد والويب والماركتينج </string>
+
+    <string name="whoIsUs">احنا مين</string>
+    <string name="aboutAppContent">سمسار هو ابليكاشن خاص بايجاد سكن للطلبة المغتربين ,كل الشقق الموجودة هنا هي خاصة بالطلبة وبس هدفنا اننا نسهل علي الطلبة مشكلة السكن و نوفر الفلوس الي بيدفعوها للسمسار </string>
+
+    <string name="thanks_for_reporting_problem">شكرا لانك بلغت عن المشكلة</string>
+    <string name="pleaseChoose_city">الرجاء اختيار المدينة</string>
+    <string name="youMustChoseCity">يرجي اختيار المدينة</string>
+    <string name="success_title" > </string>
+    <string name="semsar_cactus_gmail_com">Semsar.Cactus@gmail.com</string>
+    <string name="contact_us_phone">01228790902</string>
+    <string name="favourite">المفضلة</string>
+    <string name="noResultMatches">لا يوجد نتائج</string>
+    <string name="favourite_is_empty">لا يوجد شقق ف المفضلة</string>
+    <string name="error_wrong_password">الرجاء ادخال كلمة سر صحيحة</string>>
+
+    <string-array name="genderArray">
+        <item>اولاد</item>
+        <item>بنات</item>
+
+
+    </string-array>
+
+    <string-array name="citiesArray">
+        <item>منوف</item>
+        <item>شبيين الكوم</item>
+        <item>اشمون</item>
+        <item>سمالوط</item>
+        <item>المنيا</item>
+        <item>مغاغة</item>
+        <item>الزينون</item>
+        <item>البحوث</item>
+        <item>الجيزة</item>
+        <item>مصر الجديدة</item>
+    </string-array>
+
+    <string-array name="numOfRoomsArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+</resources>

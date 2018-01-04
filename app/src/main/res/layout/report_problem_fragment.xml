@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content"
+    >
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="right">
+
+        <EditText
+            android:id="@+id/reportProblem_et"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="right" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <com.ldoublem.loadingviewlib.view.LVBlock
+        android:id="@+id/loadingView_block"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/reportProblem_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_add_apartment_blue"
+        android:text="ارسال"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

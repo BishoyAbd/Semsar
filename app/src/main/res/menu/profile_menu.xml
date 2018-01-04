@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/action_add_apartment"
+        android:icon="@drawable/plus"
+        android:orderInCategory="99"
+        android:title="@string/addApartment"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logOut"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+
+        />
+
+</menu>

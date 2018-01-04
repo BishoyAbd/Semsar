@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AB1212</color>
+
+    <color name="colorPrimaryDark">#760407</color>
+    <color name="colorAccent">#9ED763</color>
+    <color name="baseBackground" >@color/bishoy</color>'
+    <color name="gray">#808080</color>
+    <color name="grayLight">#D3D3D3</color>
+    <color name="semiTransparentWhite">#40FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="grey">#ebeff1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="et_auth_color">@color/white</color>
+    <color name="et_auth_color_hint">#155263</color>
+    <color name="auth_btn_text_color">#155263</color>
+    <color name="colorGrayLight">#d3d3d3</color>
+    <color name="yellow">#FFF200</color>
+    <color name="bishoy">#143A52</color>
+    <color name="bg2">#f6e9e9</color>
+    <color name="button_login">#E3EFF3</color>
+    <color name="bg_login">#09A8FA</color>
+    <color name="gb2">#1DCD9F</color>
+
+
+
+
+
+</resources>

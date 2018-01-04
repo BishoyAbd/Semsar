@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/spinner_border"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    >
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:entries="@array/genderArray"
+        android:spinnerMode="dropdown"
+        android:layout_toLeftOf="@id/spi"
+        android:gravity="center"
+
+        />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/spi"-->
+        <!--android:layout_toRightOf="@+id/gender_spinner"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:src="@mipmap/spinner_bg"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_gravity="center_vertical|right"-->
+        <!--/>-->
+
+</RelativeLayout>

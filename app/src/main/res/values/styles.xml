@@ -1,0 +1,77 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BaseTextView">
+
+
+    </style>
+
+    <style name="TextView.Cred" parent="BaseTextView">
+
+        <!--false -&ndash;&gt; not focused ....... true state &#45;&#45;&ndash;&gt;focused-->
+
+        <!--textColor-->
+        <!-- Hint color and label color in FALSE state  "not focused"-->
+        <item name="android:textColorHint">@color/bishoy</item>
+        <item name="android:textSize">15sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#1DCD9F</item>
+        <item name="colorControlNormal">#424242</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+    
+
+    <style name="Button.Search" parent="Widget.AppCompat.Button.Colored">
+
+        <item name="colorButtonNormal">@color/bishoy</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="TextView.Large" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">15sp</item>
+
+        
+    </style>
+
+    
+    
+    <style name="spinnerItemStyle">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

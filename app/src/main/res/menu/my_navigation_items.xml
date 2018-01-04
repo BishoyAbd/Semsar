@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item_favourites"
+            android:title="المفضلة" />
+        <item
+            android:id="@+id/nav_item_contact_us"
+            android:title="@string/contactUs" />
+        <item
+            android:id="@+id/nav_item_about_app"
+            android:title="@string/aboutApp" />
+        <item
+            android:id="@+id/nav_item_report_problem"
+            android:title="بلغ عن مشكلة" />
+
+    </group>
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textViewFormWidth">200dp</dimen>
+    <dimen name="textViewFormHeight">36dp</dimen>
+    <dimen name="formLinearLayoutmargin">20dp</dimen>
+    <dimen name="card_apartment_radius">4dp</dimen>
+    <dimen name="loadingViewDim">100dp</dimen>
+    <dimen name="editTextCornerRadius">10dp</dimen>
+    <dimen name="edit_text_auth_credentials">45dp</dimen>
+    <dimen name="grid_expected_size">160dp</dimen>
+    <dimen name="cardViewMarginInApartment">1dp</dimen>
+    <dimen name="cardViewHeghtInApartment">50dp</dimen>
+    <dimen name="adsHeightInApartment">200dp</dimen>
+    <dimen name="text_view_size__small_in_apartment">15sp</dimen>
+    <dimen name="text_view_size_large_in_apartment">15sp</dimen>
+    <dimen name="searchTopMarginBetweenViews">30dp</dimen>
+    <dimen name="layoutMarginStartEndInSearchForm">30dp</dimen>
+    <dimen name="addApartmentInputHeght">45dp</dimen>
+    <dimen name="fabSmall">50dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+
+</resources>
